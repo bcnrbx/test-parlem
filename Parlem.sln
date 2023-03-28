@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{5FCF944D-465C-444A-8577-BFB1DD299CA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain Services", "2. Domain Services", "{6390EA54-D170-449E-B2EC-150230F82E1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DAL", "3. DAL", "{7B10E63A-E623-4BEC-9413-1FA64C5D734A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Tests", "4. Tests", "{18B633E5-971E-4BEA-A8D1-BD7FD917042A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parlem.API", "Parlem.API\Parlem.API.csproj", "{974226ED-A9BA-482E-B0D1-BDB6971319C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parlem.Services", "Parlem.Services\Parlem.Services.csproj", "{67BEDF95-7316-4F89-A837-CE409958D237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parlem.DAL", "Parlem.DAL\Parlem.DAL.csproj", "{81EB28A4-47BF-4589-A7B2-3F2AC03869CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974226ED-A9BA-482E-B0D1-BDB6971319C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974226ED-A9BA-482E-B0D1-BDB6971319C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974226ED-A9BA-482E-B0D1-BDB6971319C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974226ED-A9BA-482E-B0D1-BDB6971319C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BEDF95-7316-4F89-A837-CE409958D237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BEDF95-7316-4F89-A837-CE409958D237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BEDF95-7316-4F89-A837-CE409958D237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BEDF95-7316-4F89-A837-CE409958D237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EB28A4-47BF-4589-A7B2-3F2AC03869CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EB28A4-47BF-4589-A7B2-3F2AC03869CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EB28A4-47BF-4589-A7B2-3F2AC03869CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EB28A4-47BF-4589-A7B2-3F2AC03869CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{974226ED-A9BA-482E-B0D1-BDB6971319C5} = {5FCF944D-465C-444A-8577-BFB1DD299CA6}
+		{67BEDF95-7316-4F89-A837-CE409958D237} = {6390EA54-D170-449E-B2EC-150230F82E1B}
+		{81EB28A4-47BF-4589-A7B2-3F2AC03869CA} = {7B10E63A-E623-4BEC-9413-1FA64C5D734A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10951BD3-4111-455E-8F36-5CC9FCA2FFF6}
+	EndGlobalSection
+EndGlobal
